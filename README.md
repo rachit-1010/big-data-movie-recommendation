@@ -2,14 +2,7 @@
 
 This project is designed for providing movie recommendations based on both public ratings (IMDb) and critics ratings (Rotten Tomatoes). My idea is, once a user finds that they like one movie, they may want to keep watching other movies within the same genre. By searching the movie title, they could first get more detailed information about the movie they like (and submit their own movie ratings to update the public ratings of this movie). Based on the genre of the input movie, they could also receive recommendations about what to watch next from both public perspective and critics perspective.
 
-## How to Use
 *Note: Upon completion of the course, the cluster was closed. Please refer to the preview part.*
-
-
-To run the speed layer:
-* Connect to Hadoop
-* `cd shahrm/slw/target/`
-* `spark-submit --master local[2] --driver-java-options "-Dlog4j.configuration=file:///home/hadoop/ss.log4j.properties" --class StreamRating uber-speedlayer-1.0-SNAPSHOT.jar b-3.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092,b-1.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092,b-2.mpcs530142022.7vr20l.c19.kafka.us-east-1.amazonaws.com:9092`
 
 ## Data 
 
