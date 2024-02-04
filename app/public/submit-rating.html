@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <title>Submit Your Rating</title>
+    <link type="text/css" rel="stylesheet" href="/elegant-aero.css" />
+  </head>
+  <!-- Thanks to Mario C. E. Freese <mcefreese@gmail.com> for permission to use background image -->
+  <body style='background-image:URL("photobyshahrm.jpeg");background-repeat:no-repeat;background-position:center top;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size: 100%;'>
+    <p style="margin-bottom:5px"/>
+    <h3 style="padding: 70px 70px 70px 70px;margin-left:30%;margin-right:30%;font-family:Alegreya;font-size:28px;font-weight:bold;text-align:center;color:rgb(255,255,255);background:rgba(255,255,255,0)">&nbsp;Submit movie rating report&nbsp;</h3>
+    <form action="/rating.html" style="background:rgba(255,255,255,0);width:60%;margin:auto">
+      <label style="font-family:Alegreya;margin-left:30%;font-size:22px;font-weight:bold;color:#ffffff">
+          <span>Movie:</span>
+              <input type="text" name="title" value="Runner" style="font-family: Alegreya;font-size:20px;width:15%;color:#b47373;border: none;"/>
+      </label>
+
+      <label style="font-family:Alegreya;font-size:22px;font-weight:bold;color:#ffffff">
+          <span>Your Rating:</span>
+          <select class="public-rating" name="rating" style="font-family: Alegreya;font-size:20px;color:#b47373;border: none;">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+          </select>
+      </label>
+        <br><br><br>
+      <label style="margin-left:45%;font-family:Alegreya;font-size:20px;font-weight:bold;color:#ffffff">
+	<span>&nbsp;</span><input type="submit" value="Submit" style="font-family: Alegreya;font-size:20px;font-weight:bold;color:#b47373">
+      </label >
+    </form>
+    <iframe frameBorder="0" name="results_iframe" style="width:100%"/>
+  </body>
+</html>

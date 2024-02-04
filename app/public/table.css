@@ -1,0 +1,94 @@
+.CSS_Table_Example {
+	margin:0px;padding:0px;
+	width:100%;
+	margin-bottom: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #FFFFFF;
+	background-color:#FFFFFF;
+	-moz-border-radius-bottomleft:9px;
+	-webkit-border-bottom-left-radius:9px;
+	border-bottom-left-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	-webkit-border-bottom-right-radius:9px;
+	border-bottom-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	-webkit-border-top-right-radius:9px;
+	border-top-right-radius:9px;
+	-moz-border-radius-topleft:9px;
+	-webkit-border-top-left-radius:9px;
+	border-top-left-radius:9px;
+}.CSS_Table_Example table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSS_Table_Example tr:last-child td:last-child {
+	-moz-border-radius-bottomright:9px;
+	-webkit-border-bottom-right-radius:9px;
+	border-bottom-right-radius:9px;
+}.CSS_Table_Example table tr:first-child td:first-child {
+	-moz-border-radius-topleft:9px;
+	-webkit-border-top-left-radius:9px;
+	border-top-left-radius:9px;
+}.CSS_Table_Example table tr:first-child td:last-child {
+	-moz-border-radius-topright:9px;
+	-webkit-border-top-right-radius:9px;
+	border-top-right-radius:9px;
+}.CSS_Table_Example tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:9px;
+	-webkit-border-bottom-left-radius:9px;
+	border-bottom-left-radius:9px;
+}.CSS_Table_Example tr:hover td{
+	background-color: rgba(160, 126, 187, 0.58);
+	background:-o-linear-gradient(bottom, rgba(160, 126, 187, 0.58) 5%, rgba(255, 211, 130, 0.56) 100%);	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgba(160, 126, 187, 0.58)), color-stop(1, rgba(255, 211, 130, 0.56)) );
+	background:-moz-linear-gradient( center top, rgba(130, 255, 226, 0.56) 5%, rgba(160, 126, 187, 0.58) 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#82FFE290", endColorstr="#56aaff");	background: -o-linear-gradient(top, rgba(160, 126, 187, 0.58),56aaff);
+}.CSS_Table_Example tr:first-child td{
+	background:-o-linear-gradient(bottom, rgba(130, 255, 226, 0.56) 5%, rgba(160, 126, 187, 0.58) 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, rgba(130, 255, 226, 0.56)), color-stop(1, rgba(160, 126, 187, 0.58)) );
+	background:-moz-linear-gradient( center top, rgba(160, 126, 187, 0.58) 5%, rgba(130, 255, 226, 0.56) 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0069d3", endColorstr="#007fff");	background: -o-linear-gradient(top, rgba(160, 126, 187, 0.58),007fff);
+	background-color: rgba(160, 126, 187, 0.58);
+	border:0px solid rgba(180, 115, 134, 0.49);
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:16px;
+	font-family:Alegreya;
+	font-weight:bold;
+	color: rgb(255, 255, 255);
+}.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, rgba(160, 126, 187, 0.58) 5%, rgba(130, 255, 226, 0.56) 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, rgba(160, 126, 187, 0.58)), color-stop(1, rgba(130, 255, 226, 0.56)) );
+	background:-moz-linear-gradient( center top, rgba(160, 126, 187, 0.58) 5%, rgba(130, 255, 226, 0.56) 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#0069d3", endColorstr="#007fff");	background: -o-linear-gradient(top, #82d7ff,007fff);
+	background-color: rgba(160, 126, 187, 0.58);
+}.CSS_Table_Example tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}.CSS_Table_Example tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}.CSS_Table_Example td{
+	background:-o-linear-gradient(bottom, rgba(160, 126, 187, 0.68) 5%, rgba(255, 211, 130, 0.56) 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, rgba(160, 126, 187, 0.68)), color-stop(1, rgba(255, 211, 130, 0.56)) );
+	background:-moz-linear-gradient( center top, rgba(160, 126, 187, 0.58) 5%, rgba(255, 211, 130, 0.56) 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#56aaff", endColorstr="#82c0ff");	background: -o-linear-gradient(top, #82d7ff,82c0ff);
+	background-color: rgba(160, 126, 187, 0.58);
+	border:1px solid rgba(180, 115, 134, 0.49);
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:7px;
+	font-size:16px;
+	font-family:Alegreya;
+	font-weight:bold;
+	color: #ffffff;
+}.CSS_Table_Example tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSS_Table_Example tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSS_Table_Example tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+div {
+	text-align: center;
+	color: #ffffff;
+	font-family:Alegreya;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:25%;
+	margin-right: 25%;
+}

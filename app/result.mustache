@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <title>Result</title>
+    <link type="text/css" rel="stylesheet" href="table.css" />
+  </head>
+  <body>
+    <div>&nbsp;Information about movie {{title}} &nbsp;</div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:60%;margin:auto;overflow: hidden">
+	<tr><td>Title</td><td>Year</td><td>Genre</td><td>Rating</td><td>Votes</td><td>Director</td><td>Writer</td></tr>
+	<tr><td>{{title}}</td><td>{{year}}</td><td>{{genre}}</td><td>{{avg_rating}}</td>
+	  <td>{{votes}}</td><td>{{director}}</td><td>{{writer}}</td></tr>
+    </table>
+    <br><br>
+    <div>&nbsp;Your movie recommendation for genre {{genre}} based on public ratings&nbsp;</div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:60%;margin:auto;overflow: hidden">
+    <tr><td>Title</td><td>Year</td><td>IMDb Rating</td><td>Votes</td><td>Rank</td><td>Director</td><td>Writer</td></tr>
+	<tr><td>{{recom_title}}</td><td>{{recom_year}}</td><td>{{recom_rating}}</td><td>{{recom_votes}}</td>
+	  <td>{{recom_rank}}</td><td>{{recom_director}}</td><td>{{recom_writer}}</td></tr>
+    </table>
+    <br><br>
+    <div>&nbsp;Your movie recommendation for genre {{genre}} based on critic ratings&nbsp;</div>
+    <p style="bottom-margin: 100px">
+      <table class="CSS_Table_Example" style="width:80%;margin:auto;overflow: hidden">
+    <tr><td>Title</td><td>Year</td><td>Rotten Tomatoes Rating</td><td>Rank</td><td>Director</td><td>Writer</td>
+    <td>Latest Critic Review</td></tr>
+	<tr><td>{{rotten_title}}</td><td>{{rotten_year}}</td><td>{{rotten_rating}}</td><td>{{rotten_rank}}</td>
+	  <td>{{rotten_director}}</td><td>{{rotten_writer}}</td><td>{{rotten_review}}</td></tr>
+    </table>
+    </p>
+</body></html>
